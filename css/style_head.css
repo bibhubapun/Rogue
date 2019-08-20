@@ -1,0 +1,100 @@
+.wrap{
+	background: cyan;
+	font-family: sans-serif;
+	overflow: hidden;
+}
+.header{
+    color: cyan;
+	font-family: sans-serif;
+	text-shadow: 2px 2px purple;
+	text-align: center;
+	font-size: 40px;
+}
+.welcme{
+	color:blue;
+	font-size: 40px;
+}
+.navigation{
+	padding-right: 15px;
+
+}
+.texta{
+	font-family: sans-serif;
+	text-align: center;
+	color:black;
+	padding: 15px 15px;
+	
+}
+.parallax{
+	background-image: url("../img/galaxy-wallpaper.jpg");
+	height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2{
+	background-image: url("../img/nebula.jpg");
+	height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.grid_4{
+	border-style: solid;
+	border-width: 2px;
+	border-color:cyan;
+}
+li{
+display: inline;
+float: right;
+padding-right: 15px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+h4, 
+h3{
+	color: black;
+	text-shadow: 0.5px 0.5px blue;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+.flex_container{
+	display: flex;
+}
+.flex_item1{
+   flex:1;
+   border-style: dashed;
+   border-width: 2px;
+   border-color: blue;
+   background-color: cyan;
+}
+.flex_item2{
+	flex:1;
+	border-style: dashed;
+   border-width: 2px;
+   border-color: blue;
+	display: flex;
+	flex-direction: column;	
+}
+.block1, .block2 {
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+	background-color: cyan
+}
+p{
+	font-family:sans-serif;
+	color: black;
+}
+.footer{
+background-color: black;
+color: white;
+height: 200px;
+}
